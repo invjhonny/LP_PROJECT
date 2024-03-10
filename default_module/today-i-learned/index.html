@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today I Learned | My very first web app!</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@200..800&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,10 +17,10 @@
         <header class="header logo">
             <img src="logo.png" width="68" height="68" alt="Today I Learned logo" />
             <h1>Today I Learned</h1>
-            <button class="btn btn-large">Share a fact</button>
+            <button class="btn btn-open btn-large">Share a fact</button>
         </header>
 
-        <form class="fact-form" action="">
+        <form class="fact-form hidden" action="">
             <input type="text" placeholder="Share a fact with the world..." name="" id="" />
             <span id="maximumTextInput">200</span>
             <input type="text" placeholder="Trustworthy source..." name="" id="" />
@@ -33,7 +33,7 @@
 
             <button class="btn btn-large">Post</button>
         </form>
-        
+
         <main class="main">
             <aside>
                 <ul class="">
@@ -50,7 +50,7 @@
             </aside>
 
             <section>
-                <ul class="content-list">
+                <ul class="facts-list">
                     <li class="fact">
                         <p>
                             React is being developed by Meta (formerly facebook)
